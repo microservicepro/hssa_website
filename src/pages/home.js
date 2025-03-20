@@ -1,0 +1,35 @@
+'use client';
+
+import "../styles/globals.css";
+import Navbar from "../components/navbar";
+import HeroSection from "../components/hero";
+import Footer from "../components/footer";
+
+export default function Home() {
+  return (
+    <div className="page-container">
+      <Navbar />
+      <HeroSection />
+      <main className="main-content">
+        <section className="section-container">
+          <div className="feature-grid">
+            <div className="feature-card hover-lift" style={{ animationDelay: '100ms' }}>
+              <h3 className="feature-title">Our Mission</h3>
+              <p className="feature-text">To create a supportive community that fosters academic excellence and professional growth for health science students.</p>
+            </div>
+            <div className="feature-card hover-lift" style={{ animationDelay: '200ms' }}>
+              <h3 className="feature-title">Our Vision</h3>
+              <p className="feature-text">To be the leading student organization that empowers the next generation of healthcare professionals.</p>
+            </div>
+            <div className="feature-card hover-lift" style={{ animationDelay: '300ms' }}>
+              <h3 className="feature-title">Get Involved</h3>
+              <p className="feature-text">Join our community of passionate students and make a difference in healthcare education.</p>
+              <button className="button-primary feature-button">Join Now</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+}
