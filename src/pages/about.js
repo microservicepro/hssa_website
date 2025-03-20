@@ -6,10 +6,10 @@ import Footer from "../components/footer";
 
 export default function About() {
   const values = [
-    { title: "Community", description: "Building strong connections among health science students" },
-    { title: "Innovation", description: "Promoting new ideas and approaches in healthcare" },
-    { title: "Leadership", description: "Developing tomorrow's healthcare leaders" },
-    { title: "Excellence", description: "Striving for the highest standards in everything we do" }
+    { title: "Community!", description: "Building strong connections among health science students" },
+    { title: "Innovation!", description: "Promoting new ideas and approaches in healthcare" },
+    { title: "Leadership!", description: "Developing tomorrow's healthcare leaders" },
+    { title: "Excellence!", description: "Striving for the highest standards in everything we do" }
   ];
 
   return (
