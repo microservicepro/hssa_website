@@ -32,7 +32,7 @@ export default function Contact() {
         <section className="section-container page-section">
           <h2 className="section-title">Get in Touch</h2>
           <p className="section-description">
-            Have questions or want to get involved? We'd love to hear from you.
+            Have questions or want to get involved? We&apos;d love to hear from you.
           </p>
           
           <div className="contact-layout">

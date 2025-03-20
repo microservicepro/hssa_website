@@ -21,7 +21,7 @@ export default function About() {
           
           <div className="about-intro">
             <p className="intro-text">
-              The AESS Health Science Student Association is a dynamic community dedicated to enriching the academic and professional lives of health science students at our university. Founded in 2020, we've grown to become one of the most active student organizations on campus.
+              The AESS Health Science Student Association is a dynamic community dedicated to enriching the academic and professional lives of health science students at our university. Founded in 2020, we&apos;ve grown to become one of the most active student organizations on campus.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function About() {
           <div className="get-involved-section">
             <h3 className="subsection-title">Get Involved</h3>
             <p className="involvement-text">
-              We welcome all health science students to join our community. Whether you're interested in leadership opportunities, professional development, or simply wanting to connect with fellow students, there's a place for you here.
+              We welcome all health science students to join our community. Whether you&apos;re interested in leadership opportunities, professional development, or simply wanting to connect with fellow students, there&apos;s a place for you here.
             </p>
             <button className="button-primary">Join Today</button>
           </div>

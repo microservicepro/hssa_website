@@ -3,6 +3,7 @@
 import "../styles/globals.css";
 import Navbar from "../components/navbar";
 import HeroSection from "../components/hero";
+import HealthFactsCarousel from "../components/HealthFactsCarousel";
 import Footer from "../components/footer";
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
               <button className="button-primary feature-button">Join Now</button>
             </div>
           </div>
+          
+          {/* Add our interactive health facts carousel */}
+          <HealthFactsCarousel />
         </section>
       </main>
       <Footer />
