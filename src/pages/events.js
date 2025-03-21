@@ -6,12 +6,12 @@ import Footer from "../components/footer";
 
 const events = [
   {
-    title: "Healthcare Innovation Summit",
-    date: "March 15, 2025",
-    time: "9:00 AM - 5:00 PM",
-    location: "Health Sciences Building, Room 500",
-    description: "Join industry leaders and healthcare innovators for a day of inspiring talks and networking opportunities.",
-    category: "Conference"
+    title: "HSSA Spring Elections",
+    date: "March 21-24 2025",
+  
+    location: "Link in ",
+    description: 
+    category: "Elections"
   },
   {
     title: "Volunteer Healthcare Clinic",
