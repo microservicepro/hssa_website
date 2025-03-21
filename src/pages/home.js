@@ -37,3 +37,9 @@ export default function Home() {
     </div>
   );
 }
+<div className="slideshow">
+  <img src="/images/community1.jpg" alt="Community Image 1" />
+  <img src="/images/community2.jpg" alt="Community Image 2" />
+  <img src="/images/community3.jpg" alt="Community Image 3" />
+  <img src="/images/community4.jpg" alt="Community Image 4" />
+</div>
